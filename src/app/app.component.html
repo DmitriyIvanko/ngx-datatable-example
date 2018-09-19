@@ -11,3 +11,9 @@
                [offset]="page.pageNumber"
                (page)='setPage($event)'>
 </ngx-datatable>
+<div>
+  Total elements: {{ page.totalElements }}
+</div>
+<div>
+  Page number: {{ page.pageNumber }}
+</div>
